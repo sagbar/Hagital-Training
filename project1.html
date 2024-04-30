@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .mother{
+        height: 500px;
+        width: 100%;
+        /* border: 1px solid blue; */
+        background-image: url("image/backedwoman3.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+    }
+    
+
+    #m1{
+        height: 100px;
+        width: 100%;
+        /* border: 1px solid blue; */
+        display: flex;
+        flex-direction: row;
+    }
+
+
+    #a{
+        height: 100px;
+        width: 40%;
+        /* border: 1px solid blue; */
+    }
+
+    #a img{
+        height: 50px;
+        width: 5%;
+        padding: 25px;
+    }
+
+    #a p{
+        text-align: center;
+        font-size: large;
+        color: aliceblue;
+    }
+
+    /* #a p img{
+        height: 100px;
+        width: 15%;
+        padding:10px;
+    } */
+
+    /* #a p{
+        color: aliceblue;
+        text-align: center;
+        text-decoration: none;
+        font-size: large;
+    } */
+
+    #b{
+        height: 100px;
+        width: 60%;
+        /* border: 1px solid blue; */
+    }
+
+    #b ul li{
+            display: inline-block;
+            background-color: none;
+            color: white;
+            padding: 20px;
+            border-radius: 20px;
+            cursor: pointer;
+            margin: 10px;
+        }
+
+       #b ul li:hover{
+            background-color: rgb(128, 128, 105);
+            color: black;
+        }
+
+
+    #m2{
+        height: 400px;
+        width: 100%;
+        /* border: 1px solid blue; */
+        display: flex;
+        flex-direction: row;
+        text-indent: 70px;
+        color: aliceblue;
+    }
+
+    #c{
+        height: 400px;
+        width: 50%;
+        /* border: 1px solid blue; */
+    }
+
+    #c form{
+        background-color: none;
+        border-width: 10% ;
+    }
+
+    #d{
+        height: 400px;
+        width: 50%;
+        /* border: 1px solid blue; */
+    }
+    </style>
+</head>
+<body>
+    <div class="mother">
+        <div id="m1">
+            <div id="a">
+                <img src="./image/Superstore Logo.jpg" alt="logo">
+                <span>Match Fix</span>
+                <!-- <p><img src="./image/Superstore Logo.jpg" alt="logo">Match Fix</p> -->
+             </div>
+            <div id="b">
+                <ul>
+                    <li><a href="https//project.com" id="rice" target="-blank"></a>Home</li>
+                    <li><a href="#"></a>About Us</li>
+                    <li><a href="#"></a>Services</li>
+                    <li><a href="#"></a>Stats</li>
+                    <li><a href="#"></a>Testimonials</li>
+                    <li><a href="#"></a>Subscribe</li>
+                </ul>
+            </div>
+        </div>
+        <div id="m2">
+            <div id="c">
+                <h1>Matrimonial Search.</h1>
+                <h2>Best Matching Couples</h2>
+                <br>
+                <p>Onec Consequot Sapien Ut Leo Cursus Rhoncus. Nullam Dui Mi, Vulputate Ac</p>
+                <p>Metus Semper Dui Mi. Vestibulum Ante. Morbi At Nisl.</p>
+                <br>
+                <br>
+                <form>
+                    <input type="text" name="Read more" class="centered-placeholder" placeholder="Read more">
+                </form>
+            </div>
+            <div id="d">
+                <p id="e">
+                    <h4>Register & Join our Matrimony</h4>
+                    <form action="" method="">
+                        <div>
+                            <input type="text" name="User Name" class1="centered-placeholder" placeholder="Your Name" required>
+                        </div>
+                        <br>
+                        <div>
+                            <input type="text" name="emailaddress" class1="centered-placeholder" placeholder="Your Email Id" required>
+                        </div>
+                        <br>
+                        <div>
+                            <input type="text" name="Contact Number" class1="centered-placeholder" placeholder="Contact Number" required>
+                        </div>
+                        <br>
+                        <div>
+                            <input type="text" name="Gender" class1="centered-placeholder" placeholder="Gender" required>
+                        </div>
+                        <br>
+                        <div>
+                            <button type="submit" id="roy">Get Started</button>
+                        </div>
+                    </form>
+                    <p style="font-size: 10px;">By registering you agree to our Terms & Conditions</p>
+
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

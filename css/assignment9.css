@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(228, 171, 48);
+    margin-left: 10%;
+}
+
+#whole{
+    /* heigh?t: 100px; */
+    /* width: 100px; */
+    /* border: 1px solid red; */
+
+
+#nav{
+    height: 20px;
+    margin-left: 40px;
+    margin-right: 20px;
+    width: 100px;
+    }
+
+ul{
+color: aliceblue;
+}
+
+
+ul li{
+    display: inline-block;
+    float: right;
+}
+
+/* ul li:hover{ */
+    /* background-color: yellow; */
+    /* color: rgb(202, 66, 66); */
+
+
+
+ul li a{
+    text-align: center;
+    padding: 10px;
+    text-decoration-color: aliceblue;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+#boy{
+    margin-right: 40px;
+}
+
+#mon{
+    margin-top: 30px;
+    padding-top: 10px;
+}
+
+/* the nav bar ends here */
+
+/* My section1 starts here */
+
+#section{
+    margin: 20px;
+    border: ;
+}
+
+#mon{
+    color: aliceblue;
+}
+
+#tues{
+    float: right;
+    background-color: aliceblue;
+    padding-left: 20px;
+    width: 20%;
+    margin-inline: 15%;
+    margin-bottom: 30%;
+}

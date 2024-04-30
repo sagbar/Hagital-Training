@@ -1,0 +1,42 @@
+body{
+    color: antiquewhite; height: 1500px; width: 100%;
+}
+
+.a{
+    background-color: none;
+    width: 100%;
+    height: 70px;
+    border: 5px solid yellowgreen;
+}
+
+#son{
+    background-color: rgb(209, 125, 125);
+    border: 3px solid rgb(15, 3, 3);
+    height: 65px;
+    width: 33.3%;
+    float: left;
+    clear: both;
+}
+#boy{
+    background-color: rgb(78, 43, 43);
+    border: 3px solid rgb(79, 24, 124);
+    height: 65px;
+    width: 33.3%;
+    float: left;
+
+#toy{
+    background-color: rgb(216, 198, 198);
+    border: 3px solid rgb(167, 112, 112);
+    height: 65px;
+    width: 33.3%;
+    float: right;
+    clear: both;
+}
+
+.b{
+    float: clear;
+    background-color: aliceblue;
+    width: 100%;
+    height: 200px;
+    border: 5px solid rgb(53, 50, 205);
+}
